@@ -25,7 +25,7 @@ defmodule CSMSmashBot.Text do
   @impl GenServer
   def handle_info(:load_text, state) do
     Application.get_env(:csm_smash_bot, :texts)
-    |> Enum.map(fn {command, text} -> :persistent_term.put(command, text) end)
+    |> Enum.each(fn {command, text} -> :persistent_term.put(command, text) end)
 
     {:noreply, state}
   end
