@@ -32,7 +32,9 @@ defmodule CSMSmashBot.MixProject do
       {:nadia, "~> 0.7.0"},
       {:credo, "~> 1.5.4", only: [:dev, :test], runtime: false},
       {:excoveralls, "~> 0.13.4", only: :test, runtime: false},
-      {:dialyxir, "~> 1.0.0", only: :dev, runtime: false}
+      {:dialyxir, "~> 1.0.0", only: :dev, runtime: false},
+      {:jason, "~> 1.2.2"},
+      {:distillery, "~> 2.1.1"}
     ]
   end
 end
