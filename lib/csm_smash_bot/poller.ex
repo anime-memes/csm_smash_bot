@@ -54,11 +54,11 @@ defmodule CSMSmashBot.Poller do
     Logger.info("Received update: #{inspect(update)}")
 
     case UpdateHandler.handle_update(update) do
-      {chat_id, text} ->
-        Nadia.send_message(chat_id, text)
+      {_, nil} ->
         update_id
 
-      _ ->
+      {chat_id, text} ->
+        Nadia.send_message(chat_id, text)
         update_id
     end
   end

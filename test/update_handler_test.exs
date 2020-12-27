@@ -12,7 +12,7 @@ defmodule CSMSmashBot.UpdateHandlerTest do
   end
 
   test "parses text and ignores invalid commands" do
-    assert nil ==
+    assert {1, nil} ==
              UpdateHandler.handle_update(%{message: %{chat: %{id: 1}, text: "/invalid@botname"}})
   end
 
