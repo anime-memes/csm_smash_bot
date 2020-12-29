@@ -60,6 +60,9 @@ defmodule CSMSmashBot.Poller do
       {chat_id, text} ->
         Nadia.send_message(chat_id, text)
         update_id
+
+      _ ->
+        update_id
     end
   end
 end
