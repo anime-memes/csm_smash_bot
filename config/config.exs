@@ -80,6 +80,8 @@ config :csm_smash_bot,
     Пастебин с правилами, которые используются на наших турнирах - https://pastebin.com/sD8uGRH5
     """,
     next_tournament: """
+    10 января 2021: AMGE #1 (серия турниров от Ardeus) - https://smash.gg/tournament/amge-first-season/event/first-try/overview
+    16 января 2021: Snow Smash #2 (серия турниров от purple) - https://smash.gg/tournament/snow-smash/event/snow-smash-2/overview
     23 января 2021: CSM Smash Vault #2 - https://smash.gg/tournament/csm-smash-vault-tournament-season-2020-2021/event/csm-ultimate-singles-tournament-2/overview
     """,
     when: """
