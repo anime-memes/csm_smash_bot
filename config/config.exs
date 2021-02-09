@@ -28,6 +28,7 @@ config :csm_smash_bot,
     Главные дискорд сервера сообщества:
     https://discord.gg/Av3WdbG - Smash Vault
     https://discord.gg/xw4vg4u - сервер Crab_moto
+    https://discord.gg/7guM95xeda - для игроков в Melee
     """,
     info: """
     Помимо этой конфы у нас ещё есть:
@@ -80,9 +81,9 @@ config :csm_smash_bot,
     Пастебин с правилами, которые используются на наших турнирах - https://pastebin.com/sD8uGRH5
     """,
     next_tournament: """
-    7 февраля 2021: AMGE #2 (серия турниров от Ardeus) - https://smash.gg/tournament/amge-first-season/event/second-battle/overview
     13 февраля 2021: Snow Smash #3 (серия турниров от purple) - https://smash.gg/tournament/snow-smash/event/snow-smash-3/overview
-    20 февраля 2021: CSM Smash Vault #3 -https://smash.gg/tournament/csm-smash-vault-tournament-season-2020-2021/event/smash-vault-ultimate-singles-3/overview
+    20 февраля 2021: CSM Smash Vault #3 - https://smash.gg/tournament/csm-smash-vault-tournament-season-2020-2021/event/smash-vault-ultimate-singles-3/overview
+    7 марта 2021: AMGE #3 - https://smash.gg/tournament/amge-first-season/event/third-tournament/overview
     """,
     when: """
     Завтра
