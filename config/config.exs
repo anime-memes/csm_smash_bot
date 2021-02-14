@@ -81,9 +81,9 @@ config :csm_smash_bot,
     Пастебин с правилами, которые используются на наших турнирах - https://pastebin.com/sD8uGRH5
     """,
     next_tournament: """
-    13 февраля 2021: Snow Smash #3 (серия турниров от purple) - https://smash.gg/tournament/snow-smash/event/snow-smash-3/overview
-    20 февраля 2021: CSM Smash Vault #3 - https://smash.gg/tournament/csm-smash-vault-tournament-season-2020-2021/event/smash-vault-ultimate-singles-3/overview
+    27 февраля 2021: CSM Smash Vault #3 - https://smash.gg/tournament/csm-smash-vault-tournament-season-2020-2021/event/smash-vault-ultimate-singles-3/overview
     7 марта 2021: AMGE #3 - https://smash.gg/tournament/amge-first-season/event/third-tournament/overview
+    13 марта 2021: Snow Smash #4 - https://smash.gg/tournament/snow-smash/event/snow-smash-4/overview
     """,
     when: """
     Завтра
