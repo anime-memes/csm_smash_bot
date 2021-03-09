@@ -82,9 +82,8 @@ config :csm_smash_bot,
     Пастебин с правилами, которые используются на наших турнирах - https://pastebin.com/sD8uGRH5
     """,
     next_tournament: """
-    7 марта 2021: AMGE #3 - https://smash.gg/tournament/amge-first-season/event/third-tournament/overview
     13 марта 2021: Snow Smash #4 - https://smash.gg/tournament/snow-smash/event/snow-smash-4/overview
-    4 апреля 2021: AMGE #4 - https://smash.gg/tournament/amge-first-season/event/let-s-go-semifinal/overview
+    4 апреля 2021: AMGE #4 - https://smash.gg/tournament/amge-end-of-first-season/event/let-s-go-semifinal/overview
     10 апреля 2021: Snow Smash #5 - https://smash.gg/tournament/snow-smash/event/snow-smash-5/overview
     """,
     when: """
