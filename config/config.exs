@@ -68,7 +68,8 @@ config :csm_smash_bot,
     https://vk.com/@ssbvault-nat-i-s-chem-ego-edyat-chast-2-organizaciya-nat-a-s-pomoschu
     """,
     ranking: """
-    Актуальный ранкинг - https://braacket.com/league/ssbvault/ranking
+    Актуальный онлайн ранкинг - https://braacket.com/league/ssbvault/ranking
+    Актуальный оффлайн ранкинг - https://braacket.com/league/super-smash-bros-vault-offline/ranking
     """,
     smashgg: """
     smash.gg - это основной сайт для проведения турниров, поэтому надо уметь им пользоваться.
@@ -83,7 +84,10 @@ config :csm_smash_bot,
     Пастебин с правилами, которые используются на наших турнирах - https://pastebin.com/sD8uGRH5
     """,
     next_tournament: """
-    Мы пока не знаем, новый сезон планируется в июле
+    24 июля - оффлайн в glhf
+    31 июля - турнир от Реймона
+    7 августа - турнир от Вильвера и Будды
+    14 августа - оффлайн в Взлёт Арене (возможно)
     """,
     when: """
     Завтра
