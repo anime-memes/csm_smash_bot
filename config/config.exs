@@ -84,10 +84,8 @@ config :csm_smash_bot,
     Пастебин с правилами, которые используются на наших турнирах - https://pastebin.com/sD8uGRH5
     """,
     next_tournament: """
-    24 июля - оффлайн в glhf
-    31 июля - турнир от Реймона
-    7 августа - турнир от Вильвера и Будды
-    14 августа - оффлайн в Взлёт Арене (возможно)
+    7 августа - https://smash.gg/tournament/monado-arts-dojo/event/speed-art-dojo-mad-1/overview (турнир от Вильвера и Будды)
+    14 августа - оффлайн в glhf (анонс скоро)
     """,
     when: """
     Завтра
