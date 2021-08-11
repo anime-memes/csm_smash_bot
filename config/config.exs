@@ -84,8 +84,10 @@ config :csm_smash_bot,
     Пастебин с правилами, которые используются на наших турнирах - https://pastebin.com/sD8uGRH5
     """,
     next_tournament: """
-    7 августа - https://smash.gg/tournament/monado-arts-dojo/event/speed-art-dojo-mad-1/overview (турнир от Вильвера и Будды)
-    14 августа - оффлайн в glhf (анонс скоро)
+    15 августа - оффлайн в glhf - https://smash.gg/tournament/csm-smash-vault-tournament-season-2021/event/ultimate-singles-offline-1/overview
+    4 сентября - Monado Arts Dojo #2 (серия онлайн турниров от Вильвера и Будды)
+    12 сентября - AMGE #1 (серия онлайн турниров от Ардеуса)
+    25 сентября - CSM Online #1 - https://smash.gg/tournament/csm-smash-vault-tournament-season-2021/event/ultimate-singles-online-1/overview
     """,
     when: """
     Завтра
