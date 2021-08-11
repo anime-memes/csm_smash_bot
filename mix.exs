@@ -35,7 +35,8 @@ defmodule CSMSmashBot.MixProject do
       {:dialyxir, "~> 1.0.0", only: :dev, runtime: false},
       {:jason, "~> 1.2.2"},
       {:distillery, "~> 2.1.1"},
-      {:gen_tcp_accept_and_close, "~> 0.1.0"}
+      {:gen_tcp_accept_and_close, "~> 0.1.0"},
+      {:timex, "~> 3.7.6"}
     ]
   end
 end

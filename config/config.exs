@@ -83,16 +83,37 @@ config :csm_smash_bot,
     rules: """
     Пастебин с правилами, которые используются на наших турнирах - https://pastebin.com/sD8uGRH5
     """,
-    next_tournament: """
-    15 августа - оффлайн в glhf - https://smash.gg/tournament/csm-smash-vault-tournament-season-2021/event/ultimate-singles-offline-1/overview
-    4 сентября - Monado Arts Dojo #2 (серия онлайн турниров от Вильвера и Будды)
-    12 сентября - AMGE #1 (серия онлайн турниров от Ардеуса)
-    25 сентября - CSM Online #1 - https://smash.gg/tournament/csm-smash-vault-tournament-season-2021/event/ultimate-singles-online-1/overview
-    """,
     when: """
     Завтра
     """
-  }
+  },
+  tournaments: [
+    {"31-07-2021",
+     "Thunderjolt Series #1 (серия турниров от Реймона) - https://smash.gg/tournament/thunderjolt-series/event/thunderjolt-series-1/overview"},
+    {"07-08-2021",
+     "Speed Art Dojo (серия онлайн турниров от Вильвера и Будды) - https://smash.gg/tournament/monado-arts-dojo/details"},
+    {"15-08-2021",
+     "оффлайн в glhf - https://smash.gg/tournament/csm-smash-vault-tournament-season-2021/event/ultimate-singles-offline-1/overview"},
+    {"04-09-2021", "Monado Arts Dojo #2 (серия онлайн турниров от Вильвера и Будды)"},
+    {"12-09-2021",
+     "Kurodo Training (серия онлайн турниров от Ардеуса - https://smash.gg/tournament/kurodo-smash/event/kurodo-training-2/overview"},
+    {"25-09-2021",
+     "CSM Online #1 - https://smash.gg/tournament/csm-smash-vault-tournament-season-2021/event/ultimate-singles-online-1/overview"},
+    {"10-10-2021",
+     "Thunderjolt Series #2 (серия турниров от Реймона) - https://smash.gg/tournament/thunderjolt-series/event/thunderjolt-series-2/overview"},
+    {"23-10-2021",
+     "CSM Online #2 - https://smash.gg/tournament/csm-smash-vault-tournament-season-2021/event/ultimate-singles-online-2/overview"},
+    {"30-10-2021", "Monado Arts Dojo #3 (серия онлайн турниров от Вильвера и Будды)"},
+    {"07-11-2021",
+     "Thunderjolt Series #3 (серия турниров от Реймона) - https://smash.gg/tournament/thunderjolt-series/event/thunderjolt-series-3/overview"},
+    {"21-11-2021",
+     "Kurodo Smash Final Test (серия онлайн турниров от Ардеуса - https://smash.gg/tournament/kurodo-smash/event/final-test/overview"},
+    {"27-11-2021",
+     "CSM Online #3 - https://smash.gg/tournament/csm-smash-vault-tournament-season-2021/event/ultimate-singles-online-3/overview"},
+    {"11-12-2021", "Monado Arts Dojo #4 (серия онлайн турниров от Вильвера и Будды)"},
+    {"25-12-2021",
+     "CSM Online #4 - https://smash.gg/tournament/csm-smash-vault-tournament-season-2021/event/ultimate-singles-online-4/overview"}
+  ]
 
 config :csm_smash_bot, :nadia, token: "bot_token"
 

@@ -21,6 +21,19 @@ defmodule CSMSmashBot.UpdateHandler do
 
   defp get_response_text(nil), do: nil
 
+  defp get_response_text("next_tournament") do
+    Application.get_env(:csm_smash_bot, :tournaments)
+    |> Enum.filter(fn {start_date, _tournament} ->
+      start_date
+      |> Timex.parse!("{0D}-{0M}-{YYYY}")
+      |> Timex.between?(Timex.now(), Timex.shift(Timex.now(), months: 2))
+    end)
+    |> Enum.map(fn {start_date, tournament} ->
+      [start_date, tournament] |> Enum.join(" - ")
+    end)
+    |> Enum.join("\n")
+  end
+
   defp get_response_text(command) do
     Application.get_env(:csm_smash_bot, :texts) |> Map.get(String.to_atom(command), nil)
   end
