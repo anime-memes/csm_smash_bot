@@ -111,11 +111,10 @@ config :csm_smash_bot,
      "Kurodo Smash Final Test (серия онлайн турниров от Ардеуса - https://smash.gg/tournament/kurodo-smash/event/final-test/overview"},
     {"21-11-2021",
      "Monado Arts Dojo Random (турнир на рандомах) - https://smash.gg/tournament/monado-arts-dojo/event/jump-art-dojo-mad-random-only/overview"},
-    {"27-11-2021",
-     "CSM Online #3 - https://smash.gg/tournament/csm-smash-vault-tournament-season-2021/event/ultimate-singles-online-3/overview"},
-    {"11-12-2021", "Monado Arts Dojo #4 (серия онлайн турниров от Вильвера и Будды)"},
-    {"25-12-2021",
-     "CSM Online #4 - https://smash.gg/tournament/csm-smash-vault-tournament-season-2021/event/ultimate-singles-online-4/overview"}
+    {"11-12-2021",
+     "Monado Arts Dojo #4 (серия онлайн турниров от Вильвера и Будды) - https://smash.gg/tournament/monado-arts-dojo/event/smash-art-dojo-mad-4/overview"},
+    {"18-12-2021",
+     "CSM Online #3 - https://smash.gg/tournament/csm-smash-vault-tournament-season-2021/event/ultimate-singles-online-3/overview"}
   ]
 
 config :csm_smash_bot, :nadia, token: "bot_token"
