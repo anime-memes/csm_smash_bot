@@ -85,6 +85,9 @@ config :csm_smash_bot,
     """,
     when: """
     Завтра
+    """,
+    next_tournament: """
+    Сезон закончился, приходите в феврале
     """
   },
   tournaments: [
